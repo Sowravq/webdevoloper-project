@@ -1,0 +1,40 @@
+ body{
+    font-family: 'Open Sans', sans-serif;
+ }
+ nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav >ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-right: 30px;
+     
+    
+}
+nav a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.368);
+}
+ .font- title{
+    color: rgba(0, 0, 0, 0.884);
+    font-size: 45px;
+    font-weight: 800;
+ }
+.cor-primary{
+    color: coral;
+}
+.btm-primary{
+    background-color: coral;
+    color: white;
+    border-radius: 3px;
+    border: 0px;
+    padding: 16px ;
+    font-size: 20px;
+    font-weight: 700;
+     
+}
