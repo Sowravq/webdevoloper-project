@@ -107,5 +107,9 @@ font-weight: 700;
  .about-info{
     text-align: center;
  }
-     
-     
+     #padding{
+        padding: 30px 150px;
+     }
+    .skill{
+        display: flex;
+    }
