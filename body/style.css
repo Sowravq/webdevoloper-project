@@ -3,6 +3,9 @@
  }
  header{
     background-color: rgba(255, 228, 196, 0.751);
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
  }
  nav{
     display: flex;
@@ -43,9 +46,10 @@ nav a{
      
 }
 .joy{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .btm-four{
     border-radius: 8px;
@@ -58,4 +62,39 @@ nav a{
 }
 .joy.picture{
     width: 800px;
+    .joy1{
+        max-width: 500px;
+    }
 }
+ .joy2{
+color: rgba(0, 0, 0, 0.705);
+font-size: 30px;
+margin: 0;
+ }
+ .joy3{
+font-size: 60px;
+margin: 5px;
+ }
+ .joy4{
+
+ }
+ .about{
+    padding: 130px;
+    background-color: border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px 0;
+ }
+ .joy5{
+    color:   #181818);
+text-align: center;
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+ }
+ .joy6{
+    color:#757575;
+    text-align: center;
+    font-size: 18px;
+ }
+     
+     
